@@ -1,0 +1,49 @@
+img
+{
+    float: left;
+    height: 182px;
+}
+
+.card
+{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    font-family: Verdana;
+    float: left;
+}
+
+.card#CA
+{
+    background: linear-gradient(180deg, #4568DC 0%, #B06AB3 100%);
+}
+
+.card#IM
+{
+    background: linear-gradient(180deg, #e52d27 0%, #b31217 100%);
+}
+
+.card#BW
+{
+    background: linear-gradient(180deg, #000 0%, #61045F 100%);
+}
+
+.card#SM
+{
+    background: linear-gradient(180deg, #e52d27 0%, #000 100%);
+}
+
+.title
+{
+    float: left;
+    color: white;
+    font-size: 12px;
+    display: block;
+}
+
+.desc
+{
+    float: left;
+    color: rgba(255, 255,255, 0.5);
+    font-size: 9px;
+}

@@ -1,0 +1,51 @@
+img
+{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+}
+thead
+{
+    background-color: black;
+    color: white;
+}
+
+tr
+{
+    text-align: center;
+}
+
+td
+{
+    padding: 10px;
+}
+
+#Soul
+{
+    background-color: #d6923d;
+}
+
+#Time
+{
+    background-color: green;
+}
+
+#Space
+{
+    background-color: #005792;
+}
+
+#Mind
+{
+    background-color: yellow;
+}
+
+#Reality
+{
+    background-color: #c12a2e;
+}
+
+#Power
+{
+    background-color: #8175b7;
+}

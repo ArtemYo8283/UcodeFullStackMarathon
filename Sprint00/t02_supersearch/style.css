@@ -1,0 +1,27 @@
+form
+{
+    display: flex;
+    padding: 0px 10px 0px 10px;
+}
+
+#find
+{
+    color:green; 
+}
+
+#find:hover
+{
+    color: red;
+}
+
+#Text
+{
+    color:green;
+    height:2em;
+    width: 100%;
+}
+
+#Text:hover
+{
+    color: red;
+}
