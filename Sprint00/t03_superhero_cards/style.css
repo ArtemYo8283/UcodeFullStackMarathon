@@ -1,11 +1,22 @@
 img
 {
     float: left;
+    margin-top:-42px;
+    position: relative;
     height: 182px;
 }
-
+img#spd
+{
+    float: left;
+    margin-top:-20px;
+    position: relative;
+    height: 182px;
+}
 .card
 {
+    padding-top: 10px;
+    margin: 40px;
+    margin-left: 20px;
     width: 270px;
     height: 140px;
     border-radius: 5px;
@@ -35,15 +46,22 @@ img
 
 .title
 {
-    float: left;
+    font-family: Verdana;
+    margin-right: 10px;
+    float: right;
     color: white;
     font-size: 12px;
-    display: block;
+    font-weight: bold;
+    text-align: right;
 }
 
 .desc
 {
-    float: left;
+    font-family: Verdana;
+    float: right;
+    margin-right: 10px;
     color: rgba(255, 255,255, 0.5);
     font-size: 9px;
+    text-align: right;
 }
+
