@@ -1,0 +1,15 @@
+img
+{
+    width: 100px;
+}
+
+img.aboba
+{
+    width: 200px;
+}
+
+.aboba:hover + table td.plakplak
+{
+    visibility: hidden;
+}
+
