@@ -1,0 +1,46 @@
+img
+{
+    width: 600;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.card
+{
+    display: none;
+    width: 100%;
+}
+
+.prev, .next
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    width: 4%;
+    text-align: center;
+    display: flex;
+    padding: 25% 16px 16px 16px;
+    color: white;
+    background: lightgray;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.next
+{
+    right: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.prev
+{
+    left: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.prev:hover, .next:hover
+{
+    background-color: gray;
+}
