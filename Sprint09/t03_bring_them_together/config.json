@@ -1,0 +1,7 @@
+{
+    "connectionLimit": 10,
+    "host": "localhost",
+    "user": "abondar",
+    "password": "securepass",
+    "database": "ucode_web"
+}
