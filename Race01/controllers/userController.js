@@ -19,11 +19,7 @@ exports.homePage = async (req, res, next) => {
 exports.registerPage = (req, res, next) => {
     res.render("register");
 };
-//rules
-// exports.rules = (req, res, next) => {
-//     res.render("rules");
-// }
-// User Registration
+
 exports.register = async (req, res, next) => {
     const errors = validationResult(req);
     const { body } = req;
